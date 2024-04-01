@@ -22,7 +22,7 @@ public class SwaggerConfiguration {
 				.apiInfo(apiInfo())
 				.select()
 				//.apis(RequestHandlerSelectors.basePackage("com.game.project1.controller"))
-				.apis(RequestHandlerSelectors.basePackage("com.api.springboot.jpa"))
+				.apis(RequestHandlerSelectors.basePackage("com.api.springboot"))
 				.paths(PathSelectors.any())
 				.build();
 				
