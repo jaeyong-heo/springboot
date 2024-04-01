@@ -76,3 +76,4 @@ $RECYCLE.BIN/
 *.prefs
 
 settings/
+.classpath
